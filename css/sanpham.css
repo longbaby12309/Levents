@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    
+}
+/*Start */
+.bgtop1{
+    background-color: #000000;
+    color: #FFFFFF;
+    
+}
+.changecontent::after{
+    content: ' ';
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 20s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "15.5 up to 50% đang diễn ra";}
+    10%{content: "ngay tại TikTok shop";}
+    20%{content: "có những ưu đãi khủng";}
+    30%{content: "chỉ có tại Levents";}
+  
+} 
+/* Navbar Start */
+#navbar{
+    background: #FFFFFF;
+    border-bottom: 1px dotted #000000;
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+  }
+
+#navbar form button{
+    background-color: #FFFFFF;
+    color:black;
+    border: none;
+}
+.dropdown-menu {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    width: 250px;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+.btn i.fa-bars {
+    font-size: 1.5rem; /* Tăng kích thước biểu tượng lên 2 lần */
+  }
+  .btn.btn-primary i.fa-magnifying-glass {
+    font-size: 1.25rem; /* Tăng kích thước biểu tượng lên 1.5 lần */
+  }
+
+  .btn i.fa-bag-shopping {
+    font-size: 1.25rem;
+  }
+  .btn i.fa-user {
+    font-size: 1.25rem;
+  }
+/* Navbar End */
+
+/* Section Packages Start */
+.main-txt{
+    font-weight: 520;
+    font-size: larger;
+}
+.main-txt ul{
+    list-style: none;
+    padding: 10px;
+}
+.main-txt ul li{
+    display: inline-block;
+    position: relative;    
+}
+.main-txt ul li a{
+    display: block;
+    text-decoration: none;
+    color: #696969;
+    padding: 10px 5px;
+}
+.main-txt ul a:hover{
+    color: black;
+
+}
+.main-txt a.choine1{
+    color: black;
+}
+.accordion-item button{
+  font-size:25px;
+}
+.accordion-collapse ul li{
+  font-size: 15px;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+  }
+  .checked{
+    color: #ffa500;
+  }
+  .star i{
+    font-size: 15px;
+  }
+  .packages .card .card-body h6{
+    font-size: 20px;
+  }
+  
+  .card-body a{
+    font-size: 16px;
+  }
+  .packages .card .card-body h6{
+    font-size: 16px;
+  }
+  /* Section Packages End */
+
+  
+
+
+/* Footer Start */
+#footer{
+  
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: black;
+    color: white;
+    margin-right: 24px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: dimgrey;
+}
+.copyright{
+    margin-top: 350px;
+}
+/* Footer End */
+
+
